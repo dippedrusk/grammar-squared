@@ -1,5 +1,5 @@
-Timephrase -> HourPhrase MinutePhrase
-Timephrase -> HourPhrase MinutePhrase AmOrPm
+TimePhrase -> HourPhrase MinutePhrase
+TimePhrase -> HourPhrase MinutePhrase AmOrPm
 HourPhrase -> OneToTwelve
 MinutePhrase -> OneToSixty
 OneToTwelve -> "one" | "two" | "three" | "four" | "six" | "twelve"
