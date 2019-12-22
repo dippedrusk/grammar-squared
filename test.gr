@@ -1,0 +1,10 @@
+Timephrase -> HourPhrase MinutePhrase
+Timephrase -> HourPhrase MinutePhrase AmOrPm
+HourPhrase -> OneToTwelve
+MinutePhrase -> OneToSixty
+OneToTwelve -> "one" | "two" | "three" | "four" | "six" | "twelve"
+OneToSixty -> "fifteen" | "thirty" | FortyFive
+FortyFive -> "forty five"
+AmOrPm -> Am | Pm
+Am -> "am"
+Pm -> "pm"
