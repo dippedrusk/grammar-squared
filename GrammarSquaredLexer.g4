@@ -1,10 +1,11 @@
 lexer grammar GrammarSquaredLexer;
 
-NonTerminal : CapitalAlpha AlphaNum* ;
+Nonterminal : CapitalAlpha AlphaNum* ;
 Terminal : QuoteChar Char* QuoteChar ;
 
 Produces : '->' ;
 Or : '|' ;
+Newline : '\n' ;
 
 fragment CapitalAlpha : [A-Z] ;
 fragment AlphaNum : Alpha | Digit ;
